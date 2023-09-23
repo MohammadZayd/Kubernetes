@@ -77,7 +77,7 @@ rules:
 
 ```
 
-### Manifest: `dashboard-RBAC.yaml`
+### Manifest: `service account token/dashboard-RBAC.yaml`
 
 ```yaml
 apiVersion: rbac.authorization.k8s.io/v1
