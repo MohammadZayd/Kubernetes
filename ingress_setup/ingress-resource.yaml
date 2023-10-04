@@ -14,7 +14,7 @@ spec:
           service: 
             name: wear-service
             port: 
-              number: 80
+              number: 8080
         path: /wear
         pathType: Prefix
       - backend: 
@@ -35,5 +35,5 @@ spec:
     service: 
       name: default-backend-service
       port:   
-        number: 8080
+        number: 80
 
