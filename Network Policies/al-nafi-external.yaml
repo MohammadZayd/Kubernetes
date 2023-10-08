@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  labels: 
+    name: external 
+  name: external 
+  namespace: default 
+spec: 
+  containers: 
+  - env: 
+    - name: APP_NAME
+      value: External Al-Nafi Application
+    - name: BG_COLOR
+      value: red
+    image: kodekloud/webapp-conntest
+    name: external
+    ports: 
+    - containerPort: 8080
+      protocol: TCP
